@@ -1,8 +1,71 @@
 <head>
-  <title>Page Title</title>
+  <title>Rock Paper Scissors</title>
+  <style>
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
+      div.desc {
+      padding: 15px;
+      text-align: center;
+      }
+      div.score {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 276px;
+        text-align: center;
+      }
+      div.scoreHead {
+        margin: 5px;
+        border: 1px solid #ccc;
+        clear: left;
+        width: 564px;
+        text-align: center;
+      }
+
+  </style>
 </head>
 <body>
-  <script>
+<div class="gallery">
+  <div class="desc">Rock</div>
+  <img id="rock" SRC="images/rock.jpg" alt="rock" style="float" width="100%"  />
+</div>
+<div class="gallery">
+  <div class="desc">Paper</div>
+  <img id="paper" SRC="images/paper.png" alt="paper"  width="50%"  />
+</div>
+<div class="gallery">
+<div class="desc">Scissors</div>
+  <img id="scissors" SRC="images/scissors.jpg" alt="scissors" style="float" width="100%"  />
+</div>
+<span>
+<div class ="scorehead">
+    <h2>Round</h2>
+    <h1 id="round">0</h1>
+</div>
+</span>
+<div class ="scorehead">
+    <h2>Score</h2>
+</div>
+    <div class ="score">
+    <h3>Player 1</h3>
+    <h1 id="p1score">0</h1>
+    </div>
+    <div class ="score">
+    <h3>Computer</h3>
+    <h1 id="c1score">0</h1>
+    </div>
+
+    <div class ="scorehead">
+        <h1 id="message"> </h1>
+    </div>
+
+
+
+  <script src="rpsscript.js">
  	// Your JavaScript goes here!
 
   </script>
